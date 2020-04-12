@@ -1,0 +1,36 @@
+{
+  "name": "@mcarthur-escalante/custom-button",
+  "module": "/dist/custom-button",
+  "description": "A custom button",
+  "version": "1.0.0",
+  "author": {
+    "name": "Niche Aim Technologies",
+    "url": "https://nicheaim.com/"
+  },
+  "homepage": "https://github.com/mcarthur-escalante/custom-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcarthur-escalante/custom-button.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/components": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "react": "^16.13.1",
+    "storybook-addon-jsx": "^7.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
