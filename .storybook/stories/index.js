@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomButton from '../../src/index';
+import CustomButton from '../../src';
 import { jsxDecorator } from 'storybook-addon-jsx'
 import { storiesOf } from '@storybook/react'
 
